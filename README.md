@@ -36,7 +36,7 @@
 <hr />
 
 ## 🔖 UI
-<img src="./ui.png" />
+<a href="https://www.figma.com/file/C0cj4ayH8dVmtRvFvciHOF/%5BNLW-Heat---Mission%3A-Impulse%5D-DoWhile2021-(Community)?node-id=0%3A1">Figma</a>
 
 <hr />
 
