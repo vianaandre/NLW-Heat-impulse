@@ -8,9 +8,9 @@ import { router } from './routes';
 const app = express();
 const port = 3031;
 
+app.use(cors())
 app.use(express.json())
 app.use(router);
-app.use(cors())
 
 const serverHttp = http.createServer(app);
 

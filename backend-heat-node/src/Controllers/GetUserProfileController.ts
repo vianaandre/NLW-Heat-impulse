@@ -9,7 +9,7 @@ class GetUserProfileController {
         const service = new GetUserProfileService();
 
         const results = await service.execute(user_id);
-
+        
         return response.json(results);
     }
 };
