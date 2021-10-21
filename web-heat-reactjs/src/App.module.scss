@@ -1,0 +1,44 @@
+
+main {
+
+    width: 100%;
+
+    .container {
+        max-width: 1220px;
+        width: 100vw;
+        height: 100vh;
+        min-height: 600px;
+        margin: 0 auto;
+        position: relative;
+        padding: auto;
+    
+        display: grid;
+        grid-template-columns: 1fr 453px;
+    }
+
+}
+
+.signed {
+    overflow: hidden;
+    position: relative;
+}
+
+.signed::after {
+    content: "";
+    background: url("./assets/signed.png") no-repeat;
+    background-size: cover;
+    display: block;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    right: -200px;
+    z-index: 1;
+    width: 420px;
+    height: 100vh;
+}
+
+
+
+
+
+

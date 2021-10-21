@@ -1,0 +1,117 @@
+.containerSendMessage {
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.SendMessage {
+    padding: 24px 24px;
+    background-color: #1B1B1F;
+
+    .signOut {
+        color: #fff;
+        background-color: transparent;
+
+        &:hover {
+            filter: brightness(0.9)
+        }
+    }
+
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .headerImg {
+            padding: 2px;
+            width: 105px;
+            border-radius: 50%;
+            background: linear-gradient(100deg, #ff008e 0%, #ffcd1e 100%);
+            line-height: 0;
+
+            img {
+                display: flex;
+                justify-self: center;
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                border: solid 6px #000
+            };
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #E1E1E6;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
+            margin-top: 16px;
+        }
+        span {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 9px;
+            font-size: 14px;
+            color: #C4C4CC;
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+
+    .form {
+        margin-top: 50px;
+        width: 405px;
+        display: flex;
+        flex-direction: column;
+        background-color: #202024;
+
+        label {
+            width: 100%;
+            padding: 18px 24px;
+            font-size: 20px;
+            color: #E1E1E6;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
+            background-color: #29292E;
+        }
+
+        textarea {
+            background: transparent;
+            border: none;
+            padding: 24px;
+            font-size: 16px;
+            color: #E1E1E6;
+            font-family: 'Roboto', sans-serif;
+            resize: none;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        button {
+            font-size: 14px;
+            color: #E1E1E6;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            align-self: flex-end;
+            width: 195px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FF008E;
+            line-height: 0;
+            margin-right: 24px;
+            margin-bottom: 24px;
+
+            &:hover {
+                filter: brightness(0.9)
+            }
+        }
+    }
+}

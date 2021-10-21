@@ -1,0 +1,46 @@
+.loginBoxContainer {
+    height: 100%;
+    width: 100%;
+
+    background: #17171A url('../../assets/banner-girl.png') no-repeat center top;
+
+    padding: 0 84px;
+    padding-bottom: 40px;
+    padding-top: 112%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h4 {
+        font-size: 32px;
+        color: #E1E1E6;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+
+    a {
+        color: #09090A;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        height: 56px;
+        width: 258px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFCD1E;
+        margin-top: 40px;
+
+        svg {
+            margin-right: 10px;
+            width: 24px;
+            height: 24px;
+        }
+
+        &:hover {
+            filter: brightness(0.9)
+        }
+    }
+}
