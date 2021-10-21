@@ -11,21 +11,28 @@
 
 ## 📃 Aprendizado
 #### Aula #01 - NodeJs
-- Aprendi a criar rotas com express
-- Aprendi a organizar as pastas de forma efeciente
-- Aprendi a criar login com OGithuh
-- Aprendi a gerar token JWT
-- Aprendi a manipular o banco de dados SQLite com o prisma (migrate)
-- Aprendi a implementar websocket com socket.io
-<br />
-...
+- Aprendi a criar rotas com express ✔
+- Aprendi a organizar as pastas de forma efeciente ✔
+- Aprendi a criar login com OGithuh ✔
+- Aprendi a gerar token JWT ✔
+- Aprendi a manipular o banco de dados SQLite com o prisma (migrate) ✔
+- Aprendi a implementar websocket com socket.io ✔
+
+#### Aula #02 - ReactJs + Vite
+- Aprendi a utilizar o vite (um substituto para o webpack) ✔
+- Estilizei interfaces com sass ✔
+- Implementei as funcionalidades do backend com a api constuída em NodeJs ✔
+- Implementei o login com o Github ✔
+- Implementei a funcionalidade de envio de Mensagem ✔
+- Integrei o serviço do backend de listar as últimas 3 mensagens enviadas ✔
+- Aprendi a utilizar o socket.io no lado do client ✔
 
 <hr />
 
 ## 🚀 Tecnologias
-- NodeJs + SQLite
-- ReactJS
-- React Native
+- NodeJs + SQLite ✔
+- ReactJS ✔
+- React Native 
 - Elixir
 
 <hr />
