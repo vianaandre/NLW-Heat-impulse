@@ -1,3 +1,4 @@
 import { port, serverHttp } from "./app";
+import 'dotenv/config';
 
-serverHttp.listen(port, () => console.log(`Server runnign port ${port} 🔥`));
+serverHttp.listen(process.env.PORT || port, () => console.log(`Server runnign port ${port} 🔥`));

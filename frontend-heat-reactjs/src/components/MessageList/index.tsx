@@ -14,7 +14,7 @@ interface MessageProps {
     };
 }
 
-const socket = io("http://localhost:3031")
+const socket = io("https://app-backend-dowhile.herokuapp.com/")
 
 const newListMessage: MessageProps[] = []
 
@@ -40,7 +40,7 @@ export const MessageList = () => {
     }, [])
 
     useEffect(() => {
-        api.get<MessageProps[]>('http://localhost:3031/message/getThreeMessage').then(response => {
+        api.get<MessageProps[]>('message/getThreeMessage').then(response => {
             setMessage(response.data)
         })
     }, [])

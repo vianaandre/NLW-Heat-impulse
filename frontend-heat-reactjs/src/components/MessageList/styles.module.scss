@@ -2,6 +2,10 @@
 
     padding-bottom: 40px;
 
+    @media(max-width: 968px) {
+        grid-area: messageList;
+    }
+
     > img {
         margin-top: 32px;
         margin-bottom: 100px;
@@ -15,6 +19,15 @@
 
         li {
             width: 440px;
+
+            @media(max-width: 1024px) and (min-width: 768px) {
+                width: 100%;
+                max-width: 440px
+            }
+
+            @media(max-width: 968px) {
+                margin: 0 auto;
+            }
             p {
                 font-size: 18px;
                 color: #E1E1E6;
@@ -50,6 +63,11 @@
 
             &:nth-child(2) {
                 margin-left: 60px;
+
+                @media(max-width: 968px) {
+                    margin: 0 auto;
+                    padding-left: 60px;
+                }
             }
         }
     }

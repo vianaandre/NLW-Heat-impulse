@@ -7,6 +7,8 @@ import { GetUserProfileController } from './Controllers/GetUserProfileController
 
 const router = Router();
 
+router.get('/', (req, res) => res.json({ message: 'Server running 🔥' }))
+
 router.post("/autheticate", new AutheticateUserControllers().handle);
 
 router.post('/message', ensureAutheticate, new CreateMessageController().handle);

@@ -37,7 +37,7 @@ interface AutheticateProps {
 export const ProviderAuth = ({ children }: ProviderAuthProps) => {
     const [ user, setUser ] = useState<UserProps | null>(null)
 
-    const signGithubUrl = `https://github.com/login/oauth/authorize?scope=user&client_id=c27216c7064a0b895136`;
+    const signGithubUrl = `https://github.com/login/oauth/authorize?scope=user&client_id=${process.env.REACT_APP_CLIENT_ID}`;
 
     const autheticate = async (code: string) => {
         const { data } = await api.post<AutheticateProps>('autheticate', {

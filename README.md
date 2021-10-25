@@ -38,7 +38,7 @@
 <hr />
 
 ## 💻 Projeto
-> ...
+> A ideia do projeto e poder dar a possibilidade de pessoas poderem trocar mensagens através de uma aplicação tanto web quando mobile, onde basicamente a pessoa entra e faz login com a conta do github e envia a mensagem que ela desejar para que todo mundo que estiver usando a aplicação possa ver!
 
 <hr />
 
