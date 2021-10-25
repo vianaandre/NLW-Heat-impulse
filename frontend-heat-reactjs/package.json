@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "env-cmd -f ./.env tsc && vite build",
+    "build": "tsc && vite build",
     "start": "env-cmd -f ./.env vite preview"
   },
   "dependencies": {
