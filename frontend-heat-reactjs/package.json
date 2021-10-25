@@ -2,9 +2,9 @@
   "name": "web-heat-reactjs",
   "version": "0.0.0",
   "scripts": {
-    "dev": "env-cmd -f .env vite",
-    "build": "env-cmd -f .env tsc && vite build",
-    "start": "env-cmd -f .env vite preview"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "start": "vite preview"
   },
   "dependencies": {
     "axios": "^0.23.0",

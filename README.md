@@ -38,11 +38,8 @@
 <hr />
 
 ## 💻 Projeto
-<<<<<<< HEAD
-> A ideia do projeto e poder dar a possibilidade de pessoas poderem trocar mensagens através de uma aplicação tanto web quando mobile, onde basicamente a pessoa entra e faz login com a conta do github e envia a mensagem que ela desejar para que todo mundo que estiver usando a aplicação possa ver!
-=======
+
 > A ideia do projeto é poder dar a possibilidade de pessoas poderem trocar mensagens através de uma aplicação tanto web quando mobile, onde basicamente a pessoa entra e faz login com a conta do github e envia a mensagem que ela desejar para que todo mundo que estiver usando a aplicação possa ver!
->>>>>>> 7c4370a91227b8253c70b21e57669a3afda0f374
 
 <hr />
 
