@@ -1,6 +1,7 @@
 import { createContext, ReactNode, useEffect, useState } from 'react'
 import { api } from '../service/api'
 
+
 type UserProps = {
     name: string;
     avatar_url: string;
@@ -37,7 +38,10 @@ interface AutheticateProps {
 export const ProviderAuth = ({ children }: ProviderAuthProps) => {
     const [ user, setUser ] = useState<UserProps | null>(null)
 
-    const signGithubUrl = `https://github.com/login/oauth/authorize?scope=user&client_id=${process.env.REACT_APP_CLIENT_ID}`;
+
+    const signGithubUrl = `https://github.com/login/oauth/authorize?scope=user&client_id=${import.meta.env.VITE_CLIENT_ID}`;
+
+  
 
     const autheticate = async (code: string) => {
         const { data } = await api.post<AutheticateProps>('autheticate', {
