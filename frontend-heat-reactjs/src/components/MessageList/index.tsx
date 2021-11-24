@@ -25,19 +25,19 @@ socket.on("new_message", message => {
 export const MessageList = () => {
     const [ message, setMessage ] = useState<MessageProps[]>([])
 
-    // useEffect(() => {
-    //     const timer = setInterval(() => {
-    //         if(newListMessage.length > 0) {
-    //             setMessage(message => [
-    //                 newListMessage[0],
-    //                 message[0],
-    //                 message[1]
-    //             ])
+    useEffect(() => {
+        const timer = setInterval(() => {
+            if(newListMessage.length > 0) {
+                setMessage(message => [
+                    newListMessage[0],
+                    message[0],
+                    message[1]
+                ])
 
-    //             newListMessage.shift()
-    //         }
-    //     }, 3000)
-    // }, [])
+                newListMessage.shift()
+            }
+        }, 3000)
+    }, [])
 
     useEffect(() => {
         api.get<MessageProps[]>('message/getThreeMessage').then(response => {
