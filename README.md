@@ -10,6 +10,7 @@
 <br />
 
 ## 📃 Aprendizado
+#### <a href="https://truth-heaven-a3e.notion.site/NLW-Heat-f81aafc6f8be473fb14b1fc55b5da9a8">Notion</a>
 #### Aula #01 - NodeJs
 - Aprendi a criar rotas com express ✔
 - Aprendi a organizar as pastas de forma efeciente ✔
@@ -38,6 +39,7 @@
 ## 💻 Projeto
 
 > A ideia do projeto e poder dar a possibilidade de pessoas poderem trocar mensagens através de uma aplicação tanto web quando mobile, onde basicamente a pessoa entra e faz login com a conta do github e envia a mensagem que ela desejar para que todo mundo que estiver usando a aplicação possa ver!
+#### <a href="https://dowhile-nlw-heat.vercel.app/">WebApp</a>
 
 <hr />
 
