@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "start": "env-cmd -f ./.env vite preview"
+    "start": "vite preview"
   },
   "dependencies": {
     "axios": "^0.23.0",
